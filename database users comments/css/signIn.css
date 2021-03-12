@@ -1,0 +1,105 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #1D1B1B;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(14 , 1fr);
+    grid-template-columns: repeat(11 , 1fr);
+    
+} 
+
+h1 {
+
+    color: #E8E8E8;
+    font-size: 30px;
+    margin: 0 auto;
+    grid-row: 2/3;
+
+}
+
+header{
+    text-align: center;
+    background-color: #2D2B2B;
+    grid-column: 1/13;
+    grid-row: 1 ;
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    height: 8vh;
+
+}
+
+form{
+    display: grid;
+    grid-row: 5/12;
+    grid-column: 5/7;
+    grid-row-gap: 20px;
+}
+
+.inputs {
+    
+    display: grid;
+    grid-row-gap: 10px ;
+    height: 10vh;
+}
+
+input {
+
+    width: 27vw;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+}
+
+input::placeholder {
+
+    color: #1D1B1B;
+    font-size: 12px;
+    text-align: center;
+}
+
+a{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #247aeb;
+    color: #FFFCFC;
+    margin-left: 140px;
+    text-decoration: none;
+
+}
+
+.buttSign{
+    background-color: #2aee34;
+}
+
+.buttCancel {
+
+    background-color: red;
+    
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#buttSub{
+    width: 7vw;
+    height: 5vh;
+    font-size: 12px;
+    border-radius: 6px;
+    color: #FFFCFC;
+    outline: none;
+}
+
+footer {
+    height: 8vh;
+    background-color: #2D2B2B;
+    grid-row: 14/15;
+    grid-column: 1/12;
+    
+
+}

@@ -1,0 +1,116 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #1D1B1B;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(14 , 1fr);
+    grid-template-columns: repeat(11 , 1fr);
+    
+} 
+
+h1 {
+
+    color: #E8E8E8;
+    font-size: 30px;
+    margin: 0 auto;
+    grid-row: 2/3;
+
+}
+
+header{
+    text-align: center;
+    background-color: #2D2B2B;
+    grid-column: 1/13;
+    grid-row: 1 ;
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    height: 8vh;
+
+}
+
+.userImg{
+
+    width:  10vw;
+    height: 16vh;
+}
+
+.selectDiv {
+
+    background-color: #2D2B2B;
+    color: #FFFCFC;
+    grid-row: 3/9;
+    grid-column: 4/9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-row: 9/12;
+    grid-column: 4/9;
+    grid-row-gap: 20px;
+}
+
+.inputs {
+    
+    display: grid;
+    grid-row-gap: 10px ;
+    
+}
+
+input {
+
+    width: auto ;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    background-color: #2D2B2B;
+    color: #FFFCFC;
+    border: none;
+}
+
+input::placeholder {
+
+    color: #FFFCFC;
+    font-size: 11px;
+    text-align: center;
+}
+
+.submit{
+
+    background-color: #2BCD36;
+}
+
+#buttSub.button{
+    background-color: #FD2222;
+    width: 70px;
+    outline: none;
+    
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#buttSub{
+    width: 8vw;
+    height: 5vh;
+    font-size: 12px;
+    border-radius: 6px;
+    color: #FFFCFC;
+    
+}
+
+footer {
+    height: 8vh;
+    background-color: #2D2B2B;
+    grid-row: 14/15;
+    grid-column: 1/12;
+    
+
+}
